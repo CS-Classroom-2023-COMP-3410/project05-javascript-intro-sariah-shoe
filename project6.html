@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Periodic Table</title>
+    <link rel="stylesheet" href="CSS/project6.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Periodic Table</h1>
+        <input type="text" id="search" placeholder="Search by name, symbol, or atomic number...">
+        <div id="selected-element">
+            <h2>Selected Element</h2>
+            <p id="element-name">No Element Selected</p>
+            <p id="element-symbol">No Symbol Selected</p>
+            <p id="element-number">No Number Selected</p>
+            <p id="element-group">No Element Group Selected</p>
+            <p id="element-row">No Element Row Selected</p>
+            <p id="element-column">No Element Column Selected</p>
+        </div>
+    </header>
+    <main>
+        <div id="periodic-table"></div>
+        <div id="element-info" class="hidden"></div>
+    </main>
+    <script src="JS/project6.js"></script>
+</body>
+</html>
